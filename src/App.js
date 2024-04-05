@@ -37,6 +37,7 @@ function App() {
     <div className='container-fluid'>
       <div className="row">
         <div id='reader'></div>
+        {scanResult}
       </div>
       {scanResult ? "" : scanResult}
     </div>
